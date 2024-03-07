@@ -11,20 +11,20 @@ inputs:
     description: 'The path to the overlay to kustomize'
     required: true
   monitoring:
-    description: 'Enables kubectl rollout checks on all Deployments, statefulsets and daemonsets within the compiled manifest'
+    description: 'Enables kubectl rollout checks on all Deployments, stateful-sets and daemons within the compiled manifest'
     required: false
   kustomize:
     description: 'The version of kustomize to use'
     required: true
-    default: '4.4.1'
+    default: '5.5.3'
   kubectl:
-    description: 'The version of kustomize to use'
+    description: 'The version of kubectl to use'
     required: true
-    default: '1.23.6'
+    default: '1.29.2'
   namesuffix:
     description: 'Add suffix to all resources'
     required: false
     default: ''
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
