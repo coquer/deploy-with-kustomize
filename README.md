@@ -1,11 +1,12 @@
-# deploy-with-kustomize
-A github action that will enable you to deploy an overlay to kubernetes
+# Deploy with kustomize
+
+A GitHub action that will enable you to deploy an overlay to kubernetes.
 
 Example usage:
 
 ```
       - name: deploy
-        uses: nuuday/deploy-with-kustomize@master <-- Or any other tagged version
+        uses: coquer/deploy-with-kustomize@v2
         with:
           registry: <-- private docker registry address
           images: |
@@ -15,4 +16,5 @@ Example usage:
           monitoring: true <-- Monitor stateful, deployment or daemonsets with kubectl rollout status
           namesuffix: "staging" <-- Add suffix to all resources
 ```
+
 
