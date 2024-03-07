@@ -7,7 +7,7 @@ on:
       - "v*"
 jobs:
   release-management:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     outputs:
       release-to-prod: ${{ steps.release.outputs.release_created }}
       tag: ${{ steps.release.outputs.tag_name }}
