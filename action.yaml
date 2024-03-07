@@ -1,5 +1,8 @@
 name: 'Deploy with kustomize'
 description: 'This action compiles your kustomize manifests and deploys it with kubectl'
+branding:
+  icon: chevron-right
+  color: gray-dark
 inputs:
   registry:
     description: 'Registry to the docker images'
