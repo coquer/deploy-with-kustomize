@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/coquer/deploy-with-kustomize/compare/v1.0.1...v1.0.2) (2024-03-07)
+
+
+### Miscellaneous
+
+* add action branding ([746f214](https://github.com/coquer/deploy-with-kustomize/commit/746f2146f11233acec61be959a63d3b8476720d9))
+
 ## [1.0.1](https://github.com/coquer/deploy-with-kustomize/compare/v1.0.0...v1.0.1) (2024-03-07)
 
 
