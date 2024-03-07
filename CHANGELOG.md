@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/coquer/deploy-with-kustomize/compare/v1.0.0...v1.0.1) (2024-03-07)
+
+
+### Bug Fixes
+
+* kustomize version ([71fdb4a](https://github.com/coquer/deploy-with-kustomize/commit/71fdb4a3aa8be52d5564bb87f60105018e223a55))
+
 ## 1.0.0 (2024-03-07)
 
 
