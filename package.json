@@ -19,6 +19,6 @@
   "devDependencies": {
     "@types/node": "^16.3.3",
     "@zeit/ncc": "^0.22.3",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.4"
   }
 }
