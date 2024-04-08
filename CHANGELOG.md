@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.3](https://github.com/coquer/deploy-with-kustomize/compare/v1.0.2...v1.0.3) (2024-04-08)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @types/node from 16.18.3 to 20.12.5 ([d77defa](https://github.com/coquer/deploy-with-kustomize/commit/d77defa8f14459202b3bc900f835f6b1c2e20566))
+* **deps-dev:** bump typescript from 5.4.2 to 5.4.4 ([b51b375](https://github.com/coquer/deploy-with-kustomize/commit/b51b37587b0769b2108e97852158eac33f565a61))
+* **deps:** bump undici from 5.28.3 to 5.28.4 ([4accd93](https://github.com/coquer/deploy-with-kustomize/commit/4accd937bed0fee8150e3fc17ad241c2a4359477))
+* **master:** release 1.0.2 ([10bcc46](https://github.com/coquer/deploy-with-kustomize/commit/10bcc46182430a751da332c93422ab1d2cdd60e5))
+
 ## [1.0.2](https://github.com/coquer/deploy-with-kustomize/compare/v1.0.1...v1.0.2) (2024-03-07)
 
 
